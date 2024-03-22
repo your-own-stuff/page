@@ -3,8 +3,8 @@
 
 	import { blur } from 'svelte/transition';
 
-	import Footerbar from './FooterBar.svelte';
-	import Navbar from './NavBar.svelte';
+	import Footerbar from './footerbar.svelte';
+	import Navbar from './navbar.svelte';
 
 	export let data;
 </script>
