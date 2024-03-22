@@ -30,7 +30,7 @@
 	class="relative flex content-center items-center justify-center pb-32 pt-16"
 	style="min-height: 60vh;"
 >
-	<div class="header absolute top-0 h-full w-full bg-cover bg-center">
+	<div class="header absolute top-0 h-full w-full bg-base-100 bg-cover bg-center">
 		<span id="blackOverlay" class="absolute left-1/4 h-full w-1/2 bg-black opacity-70"></span>
 	</div>
 	<div class="container relative mx-auto">
@@ -58,11 +58,11 @@
 			x="0"
 			y="0"
 		>
-			<polygon class="fill-current text-gray-300" points="2560 0 2560 100 0 100"></polygon>
+			<polygon class="fill-current text-base-100" points="2560 0 2560 100 0 100"></polygon>
 		</svg>
 	</div>
 </header>
-<section class="-mt-24 bg-gray-300 pb-20">
+<section class="base-100 -mt-24 pb-20">
 	<div class="container mx-auto px-4">
 		<div class="flex flex-wrap">
 			<div class="w-full px-4 pt-6 text-center md:w-4/12 lg:pt-12">
@@ -75,10 +75,12 @@
 						>
 							<FontAwesomeIcon icon={faAward} />
 						</div>
-						<h6 class="text-xl font-semibold">Super Cozy</h6>
+						<h6 class="text-xl font-semibold text-primary">Super Cozy</h6>
 						<p class="mb-4 mt-2 text-gray-600">
 							Ever felt lost in the sea of cloud services, where everything feels a bit too
-							corporate and cold? That's exactly why we created your-own-stuff.
+							corporate and cold? That's exactly why we create <span class="on-brand"
+								>your-own-stuff</span
+							>.
 						</p>
 						<p class="mb-2 mt-2 text-gray-600">
 							Think of it as your personal corner on the internet - a place where all your precious
@@ -99,7 +101,7 @@
 						>
 							<FontAwesomeIcon icon={faRetweet} />
 						</div>
-						<h6 class="text-xl font-semibold">Stupid Simple</h6>
+						<h6 class="text-xl font-semibold text-primary">Stupid Simple</h6>
 						<p class="mb-4 mt-2 text-gray-600">Here, you call the shots.</p>
 						<p class="mb-2 mt-2 text-gray-600">
 							It's like having the muscle of those big cloud giants but with the heart and soul
@@ -123,13 +125,13 @@
 						>
 							<FontAwesomeIcon icon={faFingerprint} />
 						</div>
-						<h6 class="text-xl font-semibold">No Takesies</h6>
+						<h6 class="text-xl font-semibold text-primary">No Takesies</h6>
 						<p class="mb-4 mt-2 text-gray-600">
 							We're all about keeping things secure, simple, and oh-so-private.
 						</p>
 						<p class="mb-2 mt-2 text-gray-600">
-							With your-own-stuff, it's not just about saving bits and bytes; it's about creating a
-							space on the web that's truly yours.
+							With <span class="on-brand">your-own-stuff</span>, it's not just about saving bits and
+							bytes; it's about creating a space on the web that's truly yours.
 						</p>
 						<p class="mb-2 mt-2 text-gray-600">
 							So, let's kickstart this adventure, shall we? Your personal cloud, <span
@@ -148,18 +150,18 @@
 					<FontAwesomeIcon icon={faUserFriends} class="text-xl" />
 				</div>
 				<h3 class="mb-2 text-3xl font-semibold leading-normal">Free like Beer, Fair like Use</h3>
-				<p class="mb-4 mt-4 text-lg font-light leading-relaxed text-gray-700">
+				<p class="base-content mb-4 mt-4 text-lg font-light leading-relaxed">
 					Host it on your own? Sure, thing! We're all about giving you the freedom to choose where
-					to keep your-own-stuff.
+					to keep <span class="on-brand">your-own-stuff</span>.
 				</p>
-				<p class="mb-4 mt-4 text-lg font-light leading-relaxed text-gray-700">
+				<p class="base-content mb-4 mt-4 text-lg font-light leading-relaxed">
 					It won't cost you a dime, and neither an arm or a leg.<br />
-					<em>We aren't even sure what to do with them...</em>
+					<em>What would we even do with them...?</em>
 				</p>
-				<p class="mb-4 mt-0 text-lg font-light leading-relaxed text-gray-700">
+				<p class="base-content mb-4 mt-0 text-lg font-light leading-relaxed">
 					But when it get's complicated with all the ip's and ups and DNS-this DNS-that, we are
-					here.<br />With <span class="font-semibold text-primary">its-our-cloud</span>, our
-					companion service, you can access your-own-staff from wherever you are!
+					here.<br />With <span class="on-brand">our-cloud</span>, our companion service, you can
+					access your-own-staff from wherever you are!
 				</p>
 			</div>
 			<div class="ml-auto mr-auto w-full px-4 md:w-4/12">
@@ -180,7 +182,7 @@
 		</div>
 	</div>
 </section>
-<section class="relative py-20">
+<section class="relative bg-base-300 py-20">
 	<div
 		class="pointer-events-none absolute bottom-auto left-0 right-0 top-0 -mt-20 w-full overflow-hidden"
 		style="height: 80px;"
@@ -194,7 +196,7 @@
 			x="0"
 			y="0"
 		>
-			<polygon class="fill-current text-white" points="2560 0 2560 100 0 100"></polygon>
+			<polygon class="fill-current text-base-300" points="2560 0 2560 100 0 100"></polygon>
 		</svg>
 	</div>
 	<div class="container mx-auto px-4">
@@ -209,10 +211,9 @@
 					>
 						<FontAwesomeIcon icon={faRocket} class="text-xl" />
 					</div>
-					<h3 class="text-3xl font-semibold">A growing company</h3>
-					<p class="mt-4 text-lg leading-relaxed text-gray-600">
-						The extension comes with three pre-built pages to help you get started faster. You can
-						change the text and images and you're good to go.
+					<h3 class="text-3xl font-semibold">A growing project</h3>
+					<p class="mt-4 text-lg leading-relaxed text-content">
+						Might as well join while you are here!
 					</p>
 					<ul class="mt-6 list-none">
 						<li class="py-2">
@@ -225,7 +226,7 @@
 									</span>
 								</div>
 								<div>
-									<h4 class="text-gray-600">Carefully crafted components</h4>
+									<h4 class="text-content">Carefully crafted stuff</h4>
 								</div>
 							</div>
 						</li>
@@ -239,7 +240,7 @@
 									</span>
 								</div>
 								<div>
-									<h4 class="text-gray-600">Amazing page examples</h4>
+									<h4 class="text-content">Amazing cozy look</h4>
 								</div>
 							</div>
 						</li>
@@ -252,7 +253,7 @@
 									</span>
 								</div>
 								<div>
-									<h4 class="text-gray-600">Dynamic components</h4>
+									<h4 class="text-content">Fail Forward</h4>
 								</div>
 							</div>
 						</li>
@@ -262,7 +263,7 @@
 		</div>
 	</div>
 </section>
-<section class="pb-48 pt-20">
+<!-- <section class="bg-base-300 pb-48 pt-20">
 	<div class="container mx-auto px-4">
 		<div class="mb-24 flex flex-wrap justify-center text-center">
 			<div class="w-full px-4 lg:w-6/12">
@@ -393,8 +394,8 @@
 			</div>
 		</div>
 	</div>
-</section>
-<section class="relative block bg-gray-900 pb-20">
+</section> -->
+<!-- <section class="relative block bg-gray-900 pb-20">
 	<div
 		class="pointer-events-none absolute bottom-auto left-0 right-0 top-0 -mt-20 w-full overflow-hidden"
 		style="height: 80px;"
@@ -471,10 +472,16 @@
 			</div>
 		</div>
 	</div>
-</section>
+</section> -->
 
 <style lang="postcss">
 	.header {
 		background-image: url('/img/landscape_people.webp');
+	}
+
+	.on-brand {
+		color: var(--fallback-a, oklch(var(--p)));
+		font-weight: 600;
+		text-wrap: nowrap;
 	}
 </style>

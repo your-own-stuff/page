@@ -8,5 +8,18 @@ export default {
     require('@tailwindcss/typography'),
     require("daisyui")
   ],
+  daisyui: {
+    themes: [
+      {
+        yos: {
+          "primary": "#9C48B8",
+          "secondary": "#D43628",
+          "accent": "#B10CE8",
+          "neutral": "#9C48B8",
+          "base-100": "#1E663C",
+        },
+      },
+    ],
+  },
 }
 
