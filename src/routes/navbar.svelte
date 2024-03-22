@@ -1,4 +1,6 @@
 <script lang="ts">
+	import { base } from '$app/paths';
+
 	import Logo from '$lib/reusables/logo.svelte';
 	import { faArrowAltCircleDown, faBars, faFileAlt } from '@fortawesome/free-solid-svg-icons';
 	import { FontAwesomeIcon } from '@fortawesome/svelte-fontawesome';
@@ -25,7 +27,7 @@
 		>
 			<a
 				class="logobacking mr-4 inline-block whitespace-nowrap p-2 text-sm font-bold uppercase leading-relaxed"
-				href="/"
+				href="{base}/"
 			>
 				<Logo class="inline-block h-10 w-10"></Logo>
 				<span class="on-brand inline-block">your-own-stuff</span></a
@@ -47,7 +49,7 @@
 				<li class="flex items-center">
 					<a
 						class="flex items-center px-3 py-4 text-xs font-bold uppercase"
-						href="/docs"
+						href="{base}/docs"
 					>
 						<FontAwesomeIcon icon={faFileAlt} class="leading-lg mr-2 text-lg"></FontAwesomeIcon>
 						<span>Docs</span></a
