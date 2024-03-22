@@ -12,6 +12,7 @@
 	} from '@fortawesome/free-solid-svg-icons';
 	import { faHtml5 } from '@fortawesome/free-brands-svg-icons';
 	import Logo from '$lib/reusables/logo.svelte';
+	import { base } from '$app/paths';
 </script>
 
 <header
@@ -193,7 +194,7 @@
 				<img
 					alt="a person proudly selling their bagels"
 					class="max-w-full rounded-lg shadow-lg"
-					src="/img/bagle_man.webp"
+					src="{base}/img/bagle_man.webp"
 				/>
 			</div>
 			<div class="ml-auto mr-auto w-full px-4 md:w-5/12">

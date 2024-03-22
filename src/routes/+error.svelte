@@ -1,3 +1,7 @@
+<script>
+	import { base } from '$app/paths';
+</script>
+
 <header
 	class="relative flex content-center items-center justify-center pb-32 pt-16"
 	style="min-height: 25vh;"
@@ -25,7 +29,7 @@
 				<h1 class="text-9xl font-semibold text-primary">404</h1>
 				<div class="mb-4 flex w-full items-center justify-center">
 					<img
-						src="/img/exploded.webp"
+						src="{base}/img/exploded.webp"
 						alt="People looking at exploding machine"
 						class="w-1/2 rounded-lg"
 					/>

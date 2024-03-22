@@ -1,3 +1,7 @@
+<script>
+	import { base } from '$app/paths';
+</script>
+
 <header
 	class="relative flex content-center items-center justify-center pb-32 pt-16"
 	style="min-height: 25vh;"
@@ -23,7 +27,7 @@
 		>
 			<div class="w-full text-center lg:w-8/12">
 				<div class="mb-4 flex w-full items-center justify-center">
-					<img src="/img/people_waiting.webp" alt="People waiting" class="w-1/2 rounded-lg" />
+					<img src="{base}/img/people_waiting.webp" alt="People waiting" class="w-1/2 rounded-lg" />
 				</div>
 				<h3 class="text-3xl font-semibold text-secondary">The best is yet to come!</h3>
 				<p class="mb-4 mt-4 text-lg leading-relaxed text-gray-600">
