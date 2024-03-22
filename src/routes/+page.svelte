@@ -8,22 +8,10 @@
 		faUserFriends,
 		faRocket,
 		faPaperPlane,
-		faPoll,
-		faLightbulb,
 		faFaceLaughWink
 	} from '@fortawesome/free-solid-svg-icons';
-	import {
-		faDribbble,
-		faFacebook,
-		faGoogle,
-		faHtml5,
-		faInstagram,
-		faTwitter
-	} from '@fortawesome/free-brands-svg-icons';
-	import InfoForm from './InfoForm.svelte';
+	import { faHtml5 } from '@fortawesome/free-brands-svg-icons';
 	import Logo from '$lib/reusables/logo.svelte';
-
-	const formEnabled = false;
 </script>
 
 <header
@@ -202,7 +190,11 @@
 	<div class="container mx-auto px-4">
 		<div class="flex flex-wrap items-center">
 			<div class="ml-auto mr-auto w-full px-4 md:w-4/12">
-				<img alt="..." class="max-w-full rounded-lg shadow-lg" src="/img/bagle_man.webp" />
+				<img
+					alt="a person proudly selling their bagels"
+					class="max-w-full rounded-lg shadow-lg"
+					src="/img/bagle_man.webp"
+				/>
 			</div>
 			<div class="ml-auto mr-auto w-full px-4 md:w-5/12">
 				<div class="md:pr-12">
@@ -212,7 +204,7 @@
 						<FontAwesomeIcon icon={faRocket} class="text-xl" />
 					</div>
 					<h3 class="text-3xl font-semibold">A growing project</h3>
-					<p class="mt-4 text-lg leading-relaxed text-content">
+					<p class="text-content mt-4 text-lg leading-relaxed">
 						Might as well join while you are here!
 					</p>
 					<ul class="mt-6 list-none">
@@ -263,6 +255,7 @@
 		</div>
 	</div>
 </section>
+
 <!-- <section class="bg-base-300 pb-48 pt-20">
 	<div class="container mx-auto px-4">
 		<div class="mb-24 flex flex-wrap justify-center text-center">

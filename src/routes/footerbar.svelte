@@ -1,8 +1,5 @@
 <script lang="ts">
 	let date = new Date().getFullYear();
-
-	import { faDribbble, faFacebook, faGithub, faTwitter } from '@fortawesome/free-brands-svg-icons';
-	import { FontAwesomeIcon } from '@fortawesome/svelte-fontawesome';
 </script>
 
 <footer class="relative bg-gray-900 pb-6 pt-8">
@@ -52,7 +49,7 @@
 			</div>
 			<div class="w-full px-4 lg:w-6/12">
 				<div class="items-top mb-6 flex flex-wrap">
-					<div class="ml-auto w-full px-4 lg:w-4/12">
+					<!-- <div class="ml-auto w-full px-4 lg:w-4/12">
 						<span class="mb-2 block text-sm font-semibold uppercase text-gray-600"
 							>Useful Links</span
 						>
@@ -82,7 +79,7 @@
 								>
 							</li>
 						</ul>
-					</div>
+					</div> -->
 					<div class="w-full px-4 lg:w-4/12">
 						<span class="mb-2 block text-sm font-semibold uppercase text-gray-600"
 							>Other Resources</span

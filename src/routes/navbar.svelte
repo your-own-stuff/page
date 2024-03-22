@@ -8,6 +8,12 @@
 	function toggleNavbar() {
 		showMenu = !showMenu;
 	}
+
+	let buttonText = 'Get Started';
+
+	function changeText(isMouseEnter: boolean) {
+		return isMouseEnter ? 'Soon!' : 'Get Started';
+	}
 </script>
 
 <nav class="absolute top-0 z-50 flex w-full flex-wrap items-center justify-between px-2 py-3">
@@ -19,7 +25,7 @@
 		>
 			<a
 				class="logobacking mr-4 inline-block whitespace-nowrap p-2 text-sm font-bold uppercase leading-relaxed"
-				href="https://www.creative-tim.com/learning-lab/tailwind-starter-kit#/presentation"
+				href="/"
 			>
 				<Logo class="inline-block h-10 w-10"></Logo>
 				<span class="on-brand inline-block">your-own-stuff</span></a
@@ -41,7 +47,7 @@
 				<li class="flex items-center">
 					<a
 						class="flex items-center px-3 py-4 text-xs font-bold uppercase"
-						href="https://www.creative-tim.com/learning-lab/tailwind-starter-kit#/landing"
+						href="/docs"
 					>
 						<FontAwesomeIcon icon={faFileAlt} class="leading-lg mr-2 text-lg"></FontAwesomeIcon>
 						<span>Docs</span></a
@@ -51,11 +57,13 @@
 			<ul class="flex min-w-36 list-none flex-col lg:ml-auto lg:flex-row">
 				<li class="flex items-center">
 					<button
-						class="mb-3 ml-3 rounded bg-white px-4 py-2 text-xs font-bold uppercase shadow outline-none hover:shadow-md focus:outline-none lg:mb-0 lg:mr-1"
+						class="mb-3 ml-3 w-32 rounded bg-base-100 px-4 py-2 text-xs font-bold uppercase shadow outline-none hover:shadow-md focus:outline-none lg:mb-0 lg:mr-1 hover:btn-outline"
 						type="button"
-						style="transition: all 0.15s ease 0s;"
+						style="transition: all 0.5s ease 0s;"
+						on:mouseenter={() => (buttonText = changeText(true))}
+						on:mouseleave={() => (buttonText = changeText(false))}
 						><FontAwesomeIcon icon={faArrowAltCircleDown}></FontAwesomeIcon>
-						<span> Download</span>
+						<span>{buttonText}</span>
 					</button>
 				</li>
 			</ul>
