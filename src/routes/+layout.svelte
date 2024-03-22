@@ -1,8 +1,8 @@
 <script lang="ts">
 	import '../app.css';
 
-	import Footerbar from './footerbar.svelte';
-	import Navbar from './navbar.svelte';
+	import Footerbar from './FooterBar.svelte';
+	import Navbar from './NavBar.svelte';
 </script>
 
 <div>

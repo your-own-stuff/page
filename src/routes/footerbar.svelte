@@ -1,5 +1,8 @@
 <script lang="ts">
 	let date = new Date().getFullYear();
+
+	import { faDribbble, faFacebook, faGithub, faTwitter } from '@fortawesome/free-brands-svg-icons';
+	import { FontAwesomeIcon } from '@fortawesome/svelte-fontawesome';
 </script>
 
 <footer class="relative bg-gray-300 pb-6 pt-8">
@@ -30,23 +33,20 @@
 					<button
 						class="align-center mr-2 h-10 w-10 items-center justify-center rounded-full bg-white p-3 font-normal text-blue-400 shadow-lg outline-none focus:outline-none"
 						type="button"
-					>
-						<i class="fab fa-twitter flex"></i></button
-					><button
+						><FontAwesomeIcon icon={faTwitter} class="flex"></FontAwesomeIcon>
+					</button><button
 						class="align-center mr-2 h-10 w-10 items-center justify-center rounded-full bg-white p-3 font-normal text-blue-600 shadow-lg outline-none focus:outline-none"
 						type="button"
-					>
+						><FontAwesomeIcon icon={faFacebook} class="flex"></FontAwesomeIcon>
 						<i class="fab fa-facebook-square flex"></i></button
 					><button
 						class="align-center mr-2 h-10 w-10 items-center justify-center rounded-full bg-white p-3 font-normal text-pink-400 shadow-lg outline-none focus:outline-none"
 						type="button"
-					>
-						<i class="fab fa-dribbble flex"></i></button
-					><button
+						><FontAwesomeIcon icon={faDribbble} class="flex"></FontAwesomeIcon>
+					</button><button
 						class="align-center mr-2 h-10 w-10 items-center justify-center rounded-full bg-white p-3 font-normal text-gray-900 shadow-lg outline-none focus:outline-none"
 						type="button"
-					>
-						<i class="fab fa-github flex"></i>
+						><FontAwesomeIcon icon={faGithub} class="flex"></FontAwesomeIcon>
 					</button>
 				</div>
 			</div>
@@ -122,7 +122,8 @@
 		<div class="flex flex-wrap items-center justify-center md:justify-between">
 			<div class="mx-auto w-full px-4 text-center md:w-4/12">
 				<div class="py-1 text-sm font-semibold text-gray-600">
-					Copyright © {{ date }} Tailwind Starter Kit by
+					Copyright © {date} your-own-stuff<br />
+					Base Page Template by
 					<a href="https://www.creative-tim.com" class="text-gray-600 hover:text-gray-900"
 						>Creative Tim</a
 					>.

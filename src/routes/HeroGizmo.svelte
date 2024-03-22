@@ -1,6 +1,6 @@
-<div class="gizmo h-24 w-fit">
+<div class="gizmo h-24">
 	<div
-		class="text-bold grid h-14 grid-cols-2 gap-0 overflow-hidden text-nowrap text-5xl leading-snug"
+		class="text-bold grid h-14 grid-cols-2 justify-center gap-0 overflow-hidden text-nowrap text-5xl leading-snug"
 	>
 		<p class="text-secondary">your-own-</p>
 
@@ -14,6 +14,11 @@
 </div>
 
 <style lang="postcss">
+	.gizmo {
+		min-width: 28rem;
+		width: 28rem;
+	}
+
 	.list {
 		animation: change 10s infinite ease-in-out;
 	}
