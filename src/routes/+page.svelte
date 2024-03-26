@@ -159,7 +159,7 @@
 						<div class="camera"></div>
 						<div class="display">
 							<div class="artboard artboard-demo phone-1">
-								<Logo class="mb-10 h-40"></Logo>
+								<Logo class="mb-10 h-40 fill-primary"></Logo>
 								<FontAwesomeIcon icon={faFaceLaughWink} size="6x" class="text-primary"
 								></FontAwesomeIcon>
 								<br /><span class="text-3xl font-black">Hi.</span>
