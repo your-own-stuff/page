@@ -5,7 +5,7 @@ export default defineConfig({
   title: 'Your Own Stuff',
   description: 'The Cloud you finally love',
   themeConfig: {
-    logo: '../hausi.svg',
+    logo: '../assets/hausi.svg',
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },

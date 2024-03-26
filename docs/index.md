@@ -7,7 +7,7 @@ hero:
   text: 'The Cloud you finally love'
   tagline: A simple yet powerful way to keep your data
   image:
-    src: /hausi.svg
+    src: ./assets/hausi.svg
     alt: YOS Hausi
   actions:
     - theme: brand
