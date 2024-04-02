@@ -3,10 +3,10 @@
 	import { FontAwesomeIcon } from '@fortawesome/svelte-fontawesome';
 </script>
 
-<div class="container mx-auto grid h-full grid-cols-2 items-center gap-20">
+<div class="container mx-auto grid h-full items-center gap-20 lg:grid-cols-2">
 	<div class="space-y-5">
-		<h2 class="text-6xl font-bold">Your <br /> Own <br /> Stuff</h2>
-		<p class="text-xl">The private-cloud solution you finally love</p>
+		<h2 class="text-6xl font-bold">Your Own Stuff</h2>
+		<p class="text-xl text-base-content/70">The private-cloud solution you finally love</p>
 	</div>
 	<img class="rounded-md" src="https://via.placeholder.com/500" alt="placeholder" />
 	<div class="col-span-full space-y-5">
