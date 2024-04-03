@@ -2,7 +2,7 @@
 	let date = new Date().getFullYear();
 </script>
 
-<footer class="relative mt-20 bg-gray-900 pb-6 pt-8">
+<footer class="relative mt-20 bg-primary pb-6 pt-8">
 	<div
 		class="pointer-events-none absolute bottom-auto left-0 right-0 top-0 -mt-20 w-full overflow-hidden"
 		style="height: 80px;"
@@ -16,7 +16,7 @@
 			x="0"
 			y="0"
 		>
-			<polygon class="fill-current text-gray-900" points="2560 0 2560 100 0 100"></polygon>
+			<polygon class="fill-current text-primary" points="2560 0 2560 100 0 100"></polygon>
 		</svg>
 	</div>
 	<div class="container mx-auto px-4">
@@ -50,7 +50,7 @@
 			<div class="w-full px-4 lg:w-6/12">
 				<div class="items-top mb-6 flex flex-wrap">
 					<!-- <div class="ml-auto w-full px-4 lg:w-4/12">
-						<span class="mb-2 block text-sm font-semibold uppercase text-gray-600"
+						<span class="mb-2 block text-sm font-semibold uppercase text-primary-content"
 							>Useful Links</span
 						>
 						<ul class="list-unstyled">
@@ -81,13 +81,13 @@
 						</ul>
 					</div> -->
 					<div class="w-full px-4 lg:w-4/12">
-						<span class="mb-2 block text-sm font-semibold uppercase text-gray-600"
+						<span class="mb-2 block text-sm font-semibold uppercase text-primary-content"
 							>Other Resources</span
 						>
 						<ul class="list-unstyled">
 							<li>
 								<a
-									class="block pb-2 text-sm font-semibold text-gray-700 hover:text-gray-300"
+									class="block pb-2 text-sm font-semibold text-neutral-900 hover:text-gray-300"
 									href="https://github.com/your-own-stuff/yos-server/blob/main/LICENSE"
 									>AGPL-3.0 license</a
 								>
@@ -118,10 +118,10 @@
 		<hr class="my-6 border-gray-400" />
 		<div class="flex flex-wrap items-center justify-center md:justify-between">
 			<div class="mx-auto w-full px-4 text-center md:w-4/12">
-				<div class="py-1 text-sm font-semibold text-gray-600">
+				<div class="py-1 text-sm font-semibold text-primary-content">
 					Copyright © {date} your-own-stuff<br />
 					Base Page Template by
-					<a href="https://www.creative-tim.com" class="text-gray-600 hover:text-gray-300"
+					<a href="https://www.creative-tim.com" class="text-primary-content hover:text-gray-300"
 						>Creative Tim</a
 					>.
 				</div>
